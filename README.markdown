@@ -1,3 +1,4 @@
-h1. Days between dates
+Days between dates
+==================
 
 Determine the number of days, work days and weekend days between two dates.
