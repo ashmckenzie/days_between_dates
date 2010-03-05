@@ -43,7 +43,9 @@ end_date = Date.parse(options[:end])
 week_days = (start_date..end_date).reject { |d| [0,6].include? d.wday } 
 weekend_days = (start_date..end_date).reject { |d| not [0,6].include? d.wday } 
 
-puts "Computing between #{options[:start]} and #{options[:end]}"
+puts
+puts "Computing between #{options[:start]} and #{options[:end]}\n\n"
 puts "- Total days #{(end_date - start_date).to_i}"
 puts "- Week days #{week_days.length}"
 puts "- Weekend days #{weekend_days.length}"
+puts
