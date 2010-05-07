@@ -2,6 +2,7 @@
 
 require 'rubygems'
 require 'optparse'
+require 'activesupport'
 
 options = {}
 
